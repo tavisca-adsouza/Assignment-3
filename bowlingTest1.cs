@@ -13,6 +13,7 @@ namespace GradeBook.Tests
 
 	        var x = 5;
             var y = 2;
+	    bool cond = y == 2;
             var expected = 7;
             var actual = x + y + 1;
             Assert.Equal(expected, actual);
